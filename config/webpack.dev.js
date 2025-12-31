@@ -2,6 +2,7 @@ const { merge } = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const commonConfig = require('./webpack.common');
+const packageJson = require('../package.json');
 
 const devConfig = {
   mode: 'development',
@@ -19,6 +20,7 @@ const devConfig = {
         // auth: 'auth@http://localhost:8082/remoteEntry.js',
         // dashboard: 'dashboard@http://localhost:8083/remoteEntry.js',
       },
+      shared: packageJson.dependencies,
       // shared: {
       //   react: { singleton: true, eager: true, requiredVersion: '^18.0.0' },
       //   'react-dom': { singleton: true, eager: true, requiredVersion: '^18.0.0' },
