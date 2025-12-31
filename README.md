@@ -13,4 +13,13 @@ container for mfe test project
 9. create app component with router pricing page and landing page
 10. Use app component in ootstrap
 
-3
+-----------Container----------------------------------------------
+1. copy webpack config from marketing to container, change port to 8080
+2. add start script 
+3. create public with index html with id of 'root'
+4. create src folder with index js import('./bootstrap.js')
+5. create bootstrap js file
+5. create App js
+
+6. Add module federation to marketing webpack dev and webpack 
+7. Add module federation to mfe container
