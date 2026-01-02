@@ -14,12 +14,17 @@ container for mfe test project
 10. Use app component in ootstrap
 
 -----------Container----------------------------------------------
-1. copy webpack config from marketing to container, change port to 8080
-2. add start script 
-3. create public with index html with id of 'root'
-4. create src folder with index js import('./bootstrap.js')
-5. create bootstrap js file
-5. create App js
+11. copy webpack config from marketing to container, change port to 8080
+12. add start script 
+13. create public with index html with id of 'root'
+14. create src folder with index js import('./bootstrap.js')
+15. create bootstrap js file
+16. create App js
 
-6. Add module federation to marketing webpack dev and webpack 
-7. Add module federation to mfe container
+17. Add module federation to marketing webpack dev and webpack 
+18. Add module federation to mfe container
+19. add marketing
+
+
+-------------AWS-----------------------
+GITHUB ACTIONS https://www.udemy.com/course/microfrontend-course/learn/lecture/23207048#overview
