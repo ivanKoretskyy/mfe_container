@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "/**"
+      - "mfe_container/**"
 
 defaults:
   run:
