@@ -38,3 +38,11 @@ https://us-east-2.console.aws.amazon.com/s3/get-started?region=us-east-2
 26. https://us-east-2.console.aws.amazon.com/s3/buckets/koretskyy-mfe-dashboard?region=us-east-2&tab=properties
 27. enable static website hosting in properties tab
 28. allow public acces 'Edit Block public access'
+29. create bucket policy https://www.udemy.com/course/microfrontend-course/learn/lecture/33274448#questions
+30. create cloud front distribution
+31. TODO: CHECK DISTRIBUTION VERSION This S3 bucket has static web hosting enabled. If you plan to use this distribution as a website, we recommend using the S3 website endpoint rather than the bucket endpoint.
+34.  after deployed, go to distribution settings, change default root object to /container/latest/index.html
+35. change error pages to same /container/latest/index.html
+36. create IAM user and key for user, Attach clould front full access policy
+37. after creating user - create access key for it
+38. in github settings add that key and secret

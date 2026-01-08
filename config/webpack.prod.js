@@ -7,6 +7,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
+    publicPath: '/container/lates/', // TODO: replace with actual URL
     // filename: 'https://your-production-url.com/mfe_container/',
     },
   plugins: [
