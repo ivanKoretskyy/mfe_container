@@ -28,3 +28,13 @@ container for mfe test project
 
 -------------AWS-----------------------
 GITHUB ACTIONS https://www.udemy.com/course/microfrontend-course/learn/lecture/23207048#overview
+
+20. create amazon account
+23. create s3 buket
+https://us-east-2.console.aws.amazon.com/console/home?nc2=h_si&refid=5cb9d43a-a80b-42ce-8f53-bb53f52c25b6&region=us-east-2&src=header-signin
+https://us-east-2.console.aws.amazon.com/s3/get-started?region=us-east-2
+24. bukect name 'koretskyy-mfe-dashboard'
+25. REgion US East (Ohio) us-east-2
+26. https://us-east-2.console.aws.amazon.com/s3/buckets/koretskyy-mfe-dashboard?region=us-east-2&tab=properties
+27. enable static website hosting in properties tab
+28. allow public acces 'Edit Block public access'
