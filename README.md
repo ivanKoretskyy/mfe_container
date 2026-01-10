@@ -46,3 +46,7 @@ https://us-east-2.console.aws.amazon.com/s3/get-started?region=us-east-2
 36. create IAM user and key for user, Attach clould front full access policy
 37. after creating user - create access key for it
 38. in github settings add that key and secret
+
+------------URLS--------------
+public: https://d2ynwmfzhk724q.cloudfront.net/
+
