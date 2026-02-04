@@ -7,7 +7,8 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/mfe_container/latest/', // TODO: replace with actual URL
+    //publicPath: '/mfe_container/latest/', // TODO: replace with actual URL
+    publicPath: '/', // TODO: replace with actual URL
     // filename: 'https://your-production-url.com/mfe_container/',
     },
   plugins: [
